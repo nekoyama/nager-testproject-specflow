@@ -1,5 +1,5 @@
-﻿Feature: Nager Date API 
-	In the API
+﻿Feature: Nager.Date API Public Holidays
+	In the API date.nager.at/api/v2/PublicHolidays
 	As a Tester
 	I can retrieve the public holidays for a specific Country 
 

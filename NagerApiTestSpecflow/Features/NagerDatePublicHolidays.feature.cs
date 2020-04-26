@@ -20,23 +20,23 @@ namespace NagerDateAPITestProject.Features
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "3.1.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [NUnit.Framework.TestFixtureAttribute()]
-    [NUnit.Framework.DescriptionAttribute("Nager Date API")]
-    public partial class NagerDateAPIFeature
+    [NUnit.Framework.DescriptionAttribute("Nager.Date API Public Holidays")]
+    public partial class Nager_DateAPIPublicHolidaysFeature
     {
         
         private TechTalk.SpecFlow.ITestRunner testRunner;
         
         private string[] _featureTags = ((string[])(null));
         
-#line 1 "NagerDate.feature"
+#line 1 "NagerDatePublicHolidays.feature"
 #line hidden
         
         [NUnit.Framework.OneTimeSetUpAttribute()]
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Nager Date API", "\tIn the API\r\n\tAs a Tester\r\n\tI can retrieve the public holidays for a specific Cou" +
-                    "ntry ", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Nager.Date API Public Holidays", "\tIn the API date.nager.at/api/v2/PublicHolidays\r\n\tAs a Tester\r\n\tI can retrieve th" +
+                    "e public holidays for a specific Country ", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         

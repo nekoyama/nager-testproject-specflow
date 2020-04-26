@@ -21,7 +21,7 @@ namespace NagerDateApi
     }
 
     [Binding]
-    public class Nager_DateSteps
+    public class NagerPublicHolidays_Steps
     {
         RestClient client;
         RestRequest request;
@@ -29,7 +29,7 @@ namespace NagerDateApi
         //IEnumerable<DateJson> 
 
         private readonly NagerRequestData requestData;
-        public Nager_DateSteps(NagerRequestData requestData)
+        public NagerPublicHolidays_Steps(NagerRequestData requestData)
         {
             this.requestData = requestData;
         }
